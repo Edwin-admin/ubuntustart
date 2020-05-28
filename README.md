@@ -1,7 +1,7 @@
 # ubuntustart
 step 1: run start.sh
 step 2: prepare grub (*2)
-step 3: run 
+step 3: run  	IOMMUgroup.sh
 
 
 
