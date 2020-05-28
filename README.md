@@ -3,7 +3,11 @@ step 1: run start.sh
 step 2: prepare grub (*2)
 step 3: run  	IOMMUgroup.sh
 step 4: prepare modules 
-step 5: prepere nvidia conf
+step 5: prepare nvidia conf
+step 6: create VFIO.conf
+step 7: sudo update-initramfs -u -k all
+step 8: sudo reboot now
+step 9 check effect : lspci -nnv
 
 
 ---------------------
@@ -30,3 +34,8 @@ sudo nano /etc/modprobe.d/nvidia.conf
     softdep nouveau pre: vfio-pci 
     softdep nvidia pre: vfio-pci 
     softdep nvidia* pre: vfio-pci
+    
+-------------------------------
+*6
+sudo nano /etc/modprobe.d/vfio.conf
+    options vfio-pci ids=10de:06dd,10de:0e09
