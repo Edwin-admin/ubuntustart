@@ -5,8 +5,8 @@ sudo apt-get autoclean
 sudo apt-get install -y dmg2img git ovmf
 
 # qemu KVM / virt-manager
-sudo apt-get install -y qemu qemu-utils qemu-kvm 
-sudo apt-get install -y uml-utilities virt-manager virtinst 
+sudo apt-get install -y qemu qemu-utils qemu-kvm qemu-system-x86
+sudo apt-get install -y uml-utilities virt-manager virtinst
 sudo apt-get install -y libguestfs-tools libvirt-doc libvirt-daemon-system bridge-utils 
 
 # this is virtual box. 
