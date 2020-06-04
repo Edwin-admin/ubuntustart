@@ -10,4 +10,8 @@ echo "-device ide-hd,bus=sata.4,drive=SystemDisk \"
 echo ""
 echo "start basic.sh:"
 echo "sudo ./basic.sh"
+echo "sudo ./make.sh --add"
+echo "Om in virt manager op te nemen:"
+echo ""
+echo "https://computingforgeeks.com/how-to-run-macos-on-kvm-qemu/"
 sudo gedit basic.sh
