@@ -1,0 +1,2 @@
+sudo git clone https://github.com/kholia/OSX-KVM.git
+sudo ./mojave/create_iso_mojave.sh
