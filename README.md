@@ -7,7 +7,7 @@ step 5: prepare nvidia conf
 step 6: create VFIO.conf
 step 7: sudo update-initramfs -u -k all
 step 8: sudo reboot now
-step 9 check effect : lspci -nnv
+step 9 check effect : sudo lspci -nnv
 
 
 ---------------------
