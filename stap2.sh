@@ -2,4 +2,5 @@
 cd ~/Documents/
 sudo git clone https://github.com/foxlet/macOS-Simple-KVM.git
 cd ~/Documents/macOS-Simple-KVM/
-ls
+sudo ./jumpstart.sh --mojave
+
