@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get autoclean
-sudo apt-get install -y dmg2img git ovmf
+sudo apt-get install -y dmg2img git ovmf python3-pip
 
 # qemu KVM / virt-manager
 sudo apt-get install -y qemu qemu-utils qemu-kvm qemu-system-x86
