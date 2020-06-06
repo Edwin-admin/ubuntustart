@@ -5,6 +5,7 @@ cd ~/Documents/macOS-Simple-KVM/
 sudo ./jumpstart.sh --mojave
 sudo qemu-img create -f qcow2 macOS.qcow2 80G
 echo "insert into ./basic.sh:"
+echo "-m 6G ipv 2G"
 echo "-drive id=SystemDisk,if=none,file=macOS.qcow2 \"
 echo "-device ide-hd,bus=sata.4,drive=SystemDisk \"
 echo ""
