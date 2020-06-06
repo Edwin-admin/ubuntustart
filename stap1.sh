@@ -11,5 +11,3 @@ sudo apt-get install -y libguestfs-tools libvirt-doc libvirt-daemon-system bridg
 
 # this is virtual box. 
 # sudo apt-get install -y virtualbox virtualbox-dkms virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-guest-utils virtualbox-qt
-sudo reboot now
-
