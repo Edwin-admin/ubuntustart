@@ -1,5 +1,5 @@
 # ubuntustart
-step 1: run start.sh
+step 1: run stap0.sh and stap1.sh
 step 2: prepare grub (*2)
 step 3: run  	IOMMUgroup.sh
 step 4: prepare modules 
