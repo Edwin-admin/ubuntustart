@@ -12,6 +12,11 @@ Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 
 ;; in basic.sh
     -usb -device usb-host,vendorid=0x8086,productid=0x3a34 \
+    -usb -device usb-host,vendorid=0x8086,productid=0x3a35 \
+    -usb -device usb-host,vendorid=0x8086,productid=0x3a36 \
+    -usb -device usb-host,vendorid=0x8086,productid=0x3a39 \
+    -usb -device usb-host,vendorid=0x8086,productid=0x3a3a \
+
 
 
 ;; Group 6 zit achter.2x boven netwerk.  
