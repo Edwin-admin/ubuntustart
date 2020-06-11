@@ -1,3 +1,4 @@
+;;USB
 Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 008 Device 003: ID 03f0:1941 HP, Inc HP Wireless Keyboard Combo 200
 Bus 008 Device 002: ID 258a:002a SINO WEALTH Gaming KB 
@@ -8,3 +9,29 @@ Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
+;; Group 6 zit achter. 
+IOMMU Group 6 00:1a.0 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #4 [8086:3a37]
+IOMMU Group 6 00:1a.1 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #5 [8086:3a38]
+IOMMU Group 6 00:1a.7 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB2 EHCI Controller #2 [8086:3a3c]
+
+IOMMU Group 9 00:1d.0 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #1 [8086:3a34]
+IOMMU Group 9 00:1d.1 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #2 [8086:3a35]
+IOMMU Group 9 00:1d.2 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #3 [8086:3a36]
+IOMMU Group 9 00:1d.3 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #6 [8086:3a39]
+IOMMU Group 9 00:1d.7 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB2 EHCI Controller #1 [8086:3a3a]
+
+
+;; AUDIO VGA
+00:1b.0 Audio device [0403]: Intel Corporation 82801JI (ICH10 Family) HD Audio Controller [8086:3a3e]
+02:00.0 VGA compatible controller [0300]: NVIDIA Corporation GF100GL [Quadro 4000] [10de:06dd] (rev a1)
+02:00.1 Audio device [0403]: NVIDIA Corporation GF110 High Definition Audio Controller [10de:0e09] (rev a1)
+03:00.0 VGA compatible controller [0300]: NVIDIA Corporation GK208B [GeForce GT 710] [10de:128b] (rev a1)
+03:00.1 Audio device [0403]: NVIDIA Corporation GK208 HDMI/DP Audio Controller [10de:0e0f] (rev a1)
+
+IOMMU Group 7 00:1b.0 Audio device [0403]: Intel Corporation 82801JI (ICH10 Family) HD Audio Controller [8086:3a3e]
+IOMMU Group 12 02:00.0 VGA compatible controller [0300]: NVIDIA Corporation GF100GL [Quadro 4000] [10de:06dd] (rev a1)
+IOMMU Group 12 02:00.1 Audio device [0403]: NVIDIA Corporation GF110 High Definition Audio Controller [10de:0e09] (rev a1)
+IOMMU Group 13 03:00.0 VGA compatible controller [0300]: NVIDIA Corporation GK208B [GeForce GT 710] [10de:128b] (rev a1)
+IOMMU Group 13 03:00.1 Audio device [0403]: NVIDIA Corporation GK208 HDMI/DP Audio Controller [10de:0e0f] (rev a1)
+
