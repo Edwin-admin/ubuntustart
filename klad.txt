@@ -10,6 +10,16 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 
+;; anders aangesloten, nu met logitech toetsenboard muis wireless.
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 005 Device 004: ID 046d:c52b Logitech, Inc. Unifying Receiver
+Bus 005 Device 002: ID 03f0:1941 HP, Inc HP Wireless Keyboard Combo 200
+Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
+
 ;; in basic.sh
     -usb -device usb-host,vendorid=0x8086,productid=0x3a34 \
     -usb -device usb-host,vendorid=0x8086,productid=0x3a35 \
