@@ -20,14 +20,8 @@ Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 
 
-;; in basic.sh
-    -usb -device usb-host,vendorid=0x8086,productid=0x3a34 \
-    -usb -device usb-host,vendorid=0x8086,productid=0x3a35 \
-    -usb -device usb-host,vendorid=0x8086,productid=0x3a36 \
-    -usb -device usb-host,vendorid=0x8086,productid=0x3a39 \
-    -usb -device usb-host,vendorid=0x8086,productid=0x3a3a \
-
-
+;; in basic.sh voor HP muis en toestenboard. Zonder Grub vfio aanpassingen
+    -usb -device usb-host,productid=0x1941,vendorid=0x03f0 \
 
 ;; Group 6 zit achter.2x boven netwerk.  
 IOMMU Group 6 00:1a.0 USB controller [0c03]: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #4 [8086:3a37]
