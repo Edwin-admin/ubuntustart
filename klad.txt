@@ -56,3 +56,6 @@ IOMMU Group 12 02:00.1 Audio device [0403]: NVIDIA Corporation GF110 High Defini
 IOMMU Group 13 03:00.0 VGA compatible controller [0300]: NVIDIA Corporation GK208B [GeForce GT 710] [10de:128b] (rev a1)
 IOMMU Group 13 03:00.1 Audio device [0403]: NVIDIA Corporation GK208 HDMI/DP Audio Controller [10de:0e0f] (rev a1)
 
+LG 29UM57 P
+21:9, max res: 2560 x 1080
+
