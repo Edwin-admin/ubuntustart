@@ -1,3 +1,7 @@
+USB stick: 
+Bus 001 Device 002: ID 23a9:ef18 USB DISK
+ -usb -device usb-host,productid=0x23a9,vendorid=0xef18 \
+
 ;;USB
 Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 008 Device 003: ID 03f0:1941 HP, Inc HP Wireless Keyboard Combo 200
